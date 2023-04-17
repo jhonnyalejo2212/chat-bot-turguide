@@ -1,0 +1,1497 @@
+[
+  {
+    "ref": "46504a44-daa3-428f-ad60-6301321699a4",
+    "keyword": "9c7ea3fe648bb5c2e45dbd34e4f80462",
+    "answer": "Hola",
+    "options": {},
+    "from": "573103879248",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_5c1d2c6f-aef0-4400-b27b-e2aee24aa48f",
+    "keyword": "key_a370f778-734a-4ebe-bafc-d6ecadda5269",
+    "answer": "🙌 Hola bienvenido *Turguide*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "fde7b1060dd2c3710e9dd21746b63eb6",
+    "from": "573103879248"
+  },
+  {
+    "ref": "ans_d514ca32-5549-49e3-a346-e77d1513429c",
+    "keyword": "ans_5c1d2c6f-aef0-4400-b27b-e2aee24aa48f",
+    "answer": "En que podemos ayudarte el dia de hoy?",
+    "options": {
+      "media": null,
+      "buttons": [
+        {
+          "body": "Quiero estar en Turguide!"
+        },
+        {
+          "body": "Hablar con un asesor"
+        },
+        {
+          "body": "Salir"
+        }
+      ],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_8f026a53-69cf-40c6-aab9-774e22a42b8b",
+          "keyword": [
+            "Quiero estar en Turguide!"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "aa5e724445a2f26c95cc519bd40327b1"
+        },
+        {
+          "ref": "ans_792f6593-73e7-422e-9383-b6e9ac7e73d8",
+          "keyword": "key_8f026a53-69cf-40c6-aab9-774e22a42b8b",
+          "answer": "Estos son los pasos que debes seguir para ser parte de nuesto gran equipo!!😊🙌:\n*1*. Ingresa a https://turguide.app/\n*2*. Registra tus datos personales y de tu negocio\n*3*. Espera nuestra respuesta 🥳",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c1d0dd04ab90ac70955750eedf2f426d"
+        },
+        {
+          "ref": "ans_f5cfd9ff-bfea-478e-9566-d275a6622332",
+          "keyword": "ans_792f6593-73e7-422e-9383-b6e9ac7e73d8",
+          "answer": "Volver al menu principal?",
+          "options": {
+            "media": null,
+            "buttons": [
+              {
+                "body": "Volver al menu"
+              }
+            ],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "3ed2a657e6e9dde32ae8f46c239b251a"
+        },
+        {
+          "ref": "key_1f8ed658-c208-43f8-a58d-62633aea9974",
+          "keyword": [
+            "Hablar con un asesor",
+            "asesor",
+            "Asesor"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "13c83561ab7168c4af4a4721e8d9d4f5"
+        },
+        {
+          "ref": "ans_3b4fd5e9-b8ac-4c55-8a93-cdd4b3afb33b",
+          "keyword": "key_1f8ed658-c208-43f8-a58d-62633aea9974",
+          "answer": "😊Fue un gusto ayudarte, en breve un asesor *Turguide* se pondra en contacto contigo, hasta luego 👋.",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "11c96a4c773f856373271461af541cf0"
+        },
+        {
+          "ref": "key_1f09dc1b-5780-4163-bcea-c433f8911c62",
+          "keyword": [
+            "Salir",
+            "salir"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "06945413dc16e3c55d7328ffd3fdfc2e"
+        },
+        {
+          "ref": "ans_b4d2443f-fbd5-43d1-b6e0-3198d436fec3",
+          "keyword": "key_1f09dc1b-5780-4163-bcea-c433f8911c62",
+          "answer": "🤗 Fue un gusto ayudarte, si tienes alguna otra inquietud, no olvides contactarnos. 👋",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "31a12c7065ec69b503642629a8e5dd9d"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "d70b665fa2f573b9b0063e596d3a07da",
+    "from": "573103879248"
+  },
+  {
+    "ref": "c8aee9bd-95b0-438f-ac78-0371f6ceb7b0",
+    "keyword": "d70b665fa2f573b9b0063e596d3a07da",
+    "answer": "Quiero estar en Turguide!",
+    "options": {},
+    "from": "573103879248",
+    "refSerialize": "7e1d0ee0e42ddc5fc018e1d3c48887a4"
+  },
+  {
+    "ref": "ans_792f6593-73e7-422e-9383-b6e9ac7e73d8",
+    "keyword": "key_8f026a53-69cf-40c6-aab9-774e22a42b8b",
+    "answer": "Estos son los pasos que debes seguir para ser parte de nuesto gran equipo!!😊🙌:\n*1*. Ingresa a https://turguide.app/\n*2*. Registra tus datos personales y de tu negocio\n*3*. Espera nuestra respuesta 🥳",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "c1d0dd04ab90ac70955750eedf2f426d",
+    "from": "573103879248"
+  },
+  {
+    "ref": "ans_f5cfd9ff-bfea-478e-9566-d275a6622332",
+    "keyword": "ans_792f6593-73e7-422e-9383-b6e9ac7e73d8",
+    "answer": "Volver al menu principal?",
+    "options": {
+      "media": null,
+      "buttons": [
+        {
+          "body": "Volver al menu"
+        }
+      ],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "3ed2a657e6e9dde32ae8f46c239b251a",
+    "from": "573103879248"
+  },
+  {
+    "ref": "5c9559db-3777-462b-ad6c-a979b32770b1",
+    "keyword": "3ed2a657e6e9dde32ae8f46c239b251a",
+    "answer": "Volver al menu",
+    "options": {},
+    "from": "573103879248",
+    "refSerialize": "02f6f47a952a975b6f7de4bc4752510d"
+  },
+  {
+    "ref": "ans_5c1d2c6f-aef0-4400-b27b-e2aee24aa48f",
+    "keyword": "key_a370f778-734a-4ebe-bafc-d6ecadda5269",
+    "answer": "🙌 Hola bienvenido *Turguide*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "fde7b1060dd2c3710e9dd21746b63eb6",
+    "from": "573103879248"
+  },
+  {
+    "ref": "ans_d514ca32-5549-49e3-a346-e77d1513429c",
+    "keyword": "ans_5c1d2c6f-aef0-4400-b27b-e2aee24aa48f",
+    "answer": "En que podemos ayudarte el dia de hoy?",
+    "options": {
+      "media": null,
+      "buttons": [
+        {
+          "body": "Quiero estar en Turguide!"
+        },
+        {
+          "body": "Hablar con un asesor"
+        },
+        {
+          "body": "Salir"
+        }
+      ],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_8f026a53-69cf-40c6-aab9-774e22a42b8b",
+          "keyword": [
+            "Quiero estar en Turguide!"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "aa5e724445a2f26c95cc519bd40327b1"
+        },
+        {
+          "ref": "ans_792f6593-73e7-422e-9383-b6e9ac7e73d8",
+          "keyword": "key_8f026a53-69cf-40c6-aab9-774e22a42b8b",
+          "answer": "Estos son los pasos que debes seguir para ser parte de nuesto gran equipo!!😊🙌:\n*1*. Ingresa a https://turguide.app/\n*2*. Registra tus datos personales y de tu negocio\n*3*. Espera nuestra respuesta 🥳",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c1d0dd04ab90ac70955750eedf2f426d"
+        },
+        {
+          "ref": "ans_f5cfd9ff-bfea-478e-9566-d275a6622332",
+          "keyword": "ans_792f6593-73e7-422e-9383-b6e9ac7e73d8",
+          "answer": "Volver al menu principal?",
+          "options": {
+            "media": null,
+            "buttons": [
+              {
+                "body": "Volver al menu"
+              }
+            ],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "3ed2a657e6e9dde32ae8f46c239b251a"
+        },
+        {
+          "ref": "key_1f8ed658-c208-43f8-a58d-62633aea9974",
+          "keyword": [
+            "Hablar con un asesor",
+            "asesor",
+            "Asesor"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "13c83561ab7168c4af4a4721e8d9d4f5"
+        },
+        {
+          "ref": "ans_3b4fd5e9-b8ac-4c55-8a93-cdd4b3afb33b",
+          "keyword": "key_1f8ed658-c208-43f8-a58d-62633aea9974",
+          "answer": "😊Fue un gusto ayudarte, en breve un asesor *Turguide* se pondra en contacto contigo, hasta luego 👋.",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "11c96a4c773f856373271461af541cf0"
+        },
+        {
+          "ref": "key_1f09dc1b-5780-4163-bcea-c433f8911c62",
+          "keyword": [
+            "Salir",
+            "salir"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "06945413dc16e3c55d7328ffd3fdfc2e"
+        },
+        {
+          "ref": "ans_b4d2443f-fbd5-43d1-b6e0-3198d436fec3",
+          "keyword": "key_1f09dc1b-5780-4163-bcea-c433f8911c62",
+          "answer": "🤗 Fue un gusto ayudarte, si tienes alguna otra inquietud, no olvides contactarnos. 👋",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "31a12c7065ec69b503642629a8e5dd9d"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "d70b665fa2f573b9b0063e596d3a07da",
+    "from": "573103879248"
+  },
+  {
+    "ref": "1e2202ee-17dc-4299-9a49-e7f4ff1b8427",
+    "keyword": "d70b665fa2f573b9b0063e596d3a07da",
+    "answer": "Salir",
+    "options": {},
+    "from": "573103879248",
+    "refSerialize": "ba4c6387ed90bfed092fc298b2e0e371"
+  },
+  {
+    "ref": "ans_b4d2443f-fbd5-43d1-b6e0-3198d436fec3",
+    "keyword": "key_1f09dc1b-5780-4163-bcea-c433f8911c62",
+    "answer": "🤗 Fue un gusto ayudarte, si tienes alguna otra inquietud, no olvides contactarnos. 👋",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "31a12c7065ec69b503642629a8e5dd9d",
+    "from": "573103879248"
+  },
+  {
+    "ref": "f4458b52-8c47-43e0-9dc8-ad60439dba29",
+    "keyword": "31a12c7065ec69b503642629a8e5dd9d",
+    "answer": "Hablar con un asesor",
+    "options": {},
+    "from": "573103879248",
+    "refSerialize": "dada22b48760c035b6483ed3b79e62ea"
+  },
+  {
+    "ref": "4eeddbf7-f569-49d9-9d19-55dda1658137",
+    "keyword": "dada22b48760c035b6483ed3b79e62ea",
+    "answer": "Hola",
+    "options": {},
+    "from": "573103879248",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_5c1d2c6f-aef0-4400-b27b-e2aee24aa48f",
+    "keyword": "key_a370f778-734a-4ebe-bafc-d6ecadda5269",
+    "answer": "🙌 Hola bienvenido *Turguide*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "fde7b1060dd2c3710e9dd21746b63eb6",
+    "from": "573103879248"
+  },
+  {
+    "ref": "ans_d514ca32-5549-49e3-a346-e77d1513429c",
+    "keyword": "ans_5c1d2c6f-aef0-4400-b27b-e2aee24aa48f",
+    "answer": "En que podemos ayudarte el dia de hoy?",
+    "options": {
+      "media": null,
+      "buttons": [
+        {
+          "body": "Quiero estar en Turguide!"
+        },
+        {
+          "body": "Hablar con un asesor"
+        },
+        {
+          "body": "Salir"
+        }
+      ],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_8f026a53-69cf-40c6-aab9-774e22a42b8b",
+          "keyword": [
+            "Quiero estar en Turguide!"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "aa5e724445a2f26c95cc519bd40327b1"
+        },
+        {
+          "ref": "ans_792f6593-73e7-422e-9383-b6e9ac7e73d8",
+          "keyword": "key_8f026a53-69cf-40c6-aab9-774e22a42b8b",
+          "answer": "Estos son los pasos que debes seguir para ser parte de nuesto gran equipo!!😊🙌:\n*1*. Ingresa a https://turguide.app/\n*2*. Registra tus datos personales y de tu negocio\n*3*. Espera nuestra respuesta 🥳",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c1d0dd04ab90ac70955750eedf2f426d"
+        },
+        {
+          "ref": "ans_f5cfd9ff-bfea-478e-9566-d275a6622332",
+          "keyword": "ans_792f6593-73e7-422e-9383-b6e9ac7e73d8",
+          "answer": "Volver al menu principal?",
+          "options": {
+            "media": null,
+            "buttons": [
+              {
+                "body": "Volver al menu"
+              }
+            ],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "3ed2a657e6e9dde32ae8f46c239b251a"
+        },
+        {
+          "ref": "key_1f8ed658-c208-43f8-a58d-62633aea9974",
+          "keyword": [
+            "Hablar con un asesor",
+            "asesor",
+            "Asesor"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "13c83561ab7168c4af4a4721e8d9d4f5"
+        },
+        {
+          "ref": "ans_3b4fd5e9-b8ac-4c55-8a93-cdd4b3afb33b",
+          "keyword": "key_1f8ed658-c208-43f8-a58d-62633aea9974",
+          "answer": "😊Fue un gusto ayudarte, en breve un asesor *Turguide* se pondra en contacto contigo, hasta luego 👋.",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "11c96a4c773f856373271461af541cf0"
+        },
+        {
+          "ref": "key_1f09dc1b-5780-4163-bcea-c433f8911c62",
+          "keyword": [
+            "Salir",
+            "salir"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "06945413dc16e3c55d7328ffd3fdfc2e"
+        },
+        {
+          "ref": "ans_b4d2443f-fbd5-43d1-b6e0-3198d436fec3",
+          "keyword": "key_1f09dc1b-5780-4163-bcea-c433f8911c62",
+          "answer": "🤗 Fue un gusto ayudarte, si tienes alguna otra inquietud, no olvides contactarnos. 👋",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "31a12c7065ec69b503642629a8e5dd9d"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "d70b665fa2f573b9b0063e596d3a07da",
+    "from": "573103879248"
+  },
+  {
+    "ref": "c7a09859-32f1-470b-bce5-7b2292e5a024",
+    "keyword": "d70b665fa2f573b9b0063e596d3a07da",
+    "answer": "Hablar con un asesor",
+    "options": {},
+    "from": "573103879248",
+    "refSerialize": "dada22b48760c035b6483ed3b79e62ea"
+  },
+  {
+    "ref": "ans_3b4fd5e9-b8ac-4c55-8a93-cdd4b3afb33b",
+    "keyword": "key_1f8ed658-c208-43f8-a58d-62633aea9974",
+    "answer": "😊Fue un gusto ayudarte, en breve un asesor *Turguide* se pondra en contacto contigo, hasta luego 👋.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "11c96a4c773f856373271461af541cf0",
+    "from": "573103879248"
+  },
+  {
+    "ref": "ans_5c1d2c6f-aef0-4400-b27b-e2aee24aa48f",
+    "keyword": "key_a370f778-734a-4ebe-bafc-d6ecadda5269",
+    "answer": "🙌 Hola bienvenido *Turguide*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "fde7b1060dd2c3710e9dd21746b63eb6",
+    "from": "573212692626"
+  },
+  {
+    "ref": "ans_d514ca32-5549-49e3-a346-e77d1513429c",
+    "keyword": "ans_5c1d2c6f-aef0-4400-b27b-e2aee24aa48f",
+    "answer": "En que podemos ayudarte el dia de hoy?",
+    "options": {
+      "media": null,
+      "buttons": [
+        {
+          "body": "Quiero estar en Turguide!"
+        },
+        {
+          "body": "Hablar con un asesor"
+        },
+        {
+          "body": "Salir"
+        }
+      ],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_8f026a53-69cf-40c6-aab9-774e22a42b8b",
+          "keyword": [
+            "Quiero estar en Turguide!"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "aa5e724445a2f26c95cc519bd40327b1"
+        },
+        {
+          "ref": "ans_792f6593-73e7-422e-9383-b6e9ac7e73d8",
+          "keyword": "key_8f026a53-69cf-40c6-aab9-774e22a42b8b",
+          "answer": "Estos son los pasos que debes seguir para ser parte de nuesto gran equipo!!😊🙌:\n*1*. Ingresa a https://turguide.app/\n*2*. Registra tus datos personales y de tu negocio\n*3*. Espera nuestra respuesta 🥳",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c1d0dd04ab90ac70955750eedf2f426d"
+        },
+        {
+          "ref": "ans_f5cfd9ff-bfea-478e-9566-d275a6622332",
+          "keyword": "ans_792f6593-73e7-422e-9383-b6e9ac7e73d8",
+          "answer": "Volver al menu principal?",
+          "options": {
+            "media": null,
+            "buttons": [
+              {
+                "body": "Volver al menu"
+              }
+            ],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "3ed2a657e6e9dde32ae8f46c239b251a"
+        },
+        {
+          "ref": "key_1f8ed658-c208-43f8-a58d-62633aea9974",
+          "keyword": [
+            "Hablar con un asesor",
+            "asesor",
+            "Asesor"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "13c83561ab7168c4af4a4721e8d9d4f5"
+        },
+        {
+          "ref": "ans_3b4fd5e9-b8ac-4c55-8a93-cdd4b3afb33b",
+          "keyword": "key_1f8ed658-c208-43f8-a58d-62633aea9974",
+          "answer": "😊Fue un gusto ayudarte, en breve un asesor *Turguide* se pondra en contacto contigo, hasta luego 👋.",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "11c96a4c773f856373271461af541cf0"
+        },
+        {
+          "ref": "key_1f09dc1b-5780-4163-bcea-c433f8911c62",
+          "keyword": [
+            "Salir",
+            "salir"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "06945413dc16e3c55d7328ffd3fdfc2e"
+        },
+        {
+          "ref": "ans_b4d2443f-fbd5-43d1-b6e0-3198d436fec3",
+          "keyword": "key_1f09dc1b-5780-4163-bcea-c433f8911c62",
+          "answer": "🤗 Fue un gusto ayudarte, si tienes alguna otra inquietud, no olvides contactarnos. 👋",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "31a12c7065ec69b503642629a8e5dd9d"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "d70b665fa2f573b9b0063e596d3a07da",
+    "from": "573212692626"
+  },
+  {
+    "ref": "709b0f01-d177-445f-a189-fe2d07a18cfa",
+    "keyword": "d70b665fa2f573b9b0063e596d3a07da",
+    "answer": "Quiero estar en Turguide!",
+    "options": {},
+    "from": "573212692626",
+    "refSerialize": "7e1d0ee0e42ddc5fc018e1d3c48887a4"
+  },
+  {
+    "ref": "ans_792f6593-73e7-422e-9383-b6e9ac7e73d8",
+    "keyword": "key_8f026a53-69cf-40c6-aab9-774e22a42b8b",
+    "answer": "Estos son los pasos que debes seguir para ser parte de nuesto gran equipo!!😊🙌:\n*1*. Ingresa a https://turguide.app/\n*2*. Registra tus datos personales y de tu negocio\n*3*. Espera nuestra respuesta 🥳",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "c1d0dd04ab90ac70955750eedf2f426d",
+    "from": "573212692626"
+  },
+  {
+    "ref": "ans_f5cfd9ff-bfea-478e-9566-d275a6622332",
+    "keyword": "ans_792f6593-73e7-422e-9383-b6e9ac7e73d8",
+    "answer": "Volver al menu principal?",
+    "options": {
+      "media": null,
+      "buttons": [
+        {
+          "body": "Volver al menu"
+        }
+      ],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "3ed2a657e6e9dde32ae8f46c239b251a",
+    "from": "573212692626"
+  },
+  {
+    "ref": "f63a726f-cce2-4454-b783-141bfcae8fd6",
+    "keyword": "3ed2a657e6e9dde32ae8f46c239b251a",
+    "answer": "hola",
+    "options": {},
+    "from": "573212692626",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_5c1d2c6f-aef0-4400-b27b-e2aee24aa48f",
+    "keyword": "key_a370f778-734a-4ebe-bafc-d6ecadda5269",
+    "answer": "🙌 Hola bienvenido *Turguide*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "fde7b1060dd2c3710e9dd21746b63eb6",
+    "from": "573212692626"
+  },
+  {
+    "ref": "ans_d514ca32-5549-49e3-a346-e77d1513429c",
+    "keyword": "ans_5c1d2c6f-aef0-4400-b27b-e2aee24aa48f",
+    "answer": "En que podemos ayudarte el dia de hoy?",
+    "options": {
+      "media": null,
+      "buttons": [
+        {
+          "body": "Quiero estar en Turguide!"
+        },
+        {
+          "body": "Hablar con un asesor"
+        },
+        {
+          "body": "Salir"
+        }
+      ],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_8f026a53-69cf-40c6-aab9-774e22a42b8b",
+          "keyword": [
+            "Quiero estar en Turguide!"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "aa5e724445a2f26c95cc519bd40327b1"
+        },
+        {
+          "ref": "ans_792f6593-73e7-422e-9383-b6e9ac7e73d8",
+          "keyword": "key_8f026a53-69cf-40c6-aab9-774e22a42b8b",
+          "answer": "Estos son los pasos que debes seguir para ser parte de nuesto gran equipo!!😊🙌:\n*1*. Ingresa a https://turguide.app/\n*2*. Registra tus datos personales y de tu negocio\n*3*. Espera nuestra respuesta 🥳",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c1d0dd04ab90ac70955750eedf2f426d"
+        },
+        {
+          "ref": "ans_f5cfd9ff-bfea-478e-9566-d275a6622332",
+          "keyword": "ans_792f6593-73e7-422e-9383-b6e9ac7e73d8",
+          "answer": "Volver al menu principal?",
+          "options": {
+            "media": null,
+            "buttons": [
+              {
+                "body": "Volver al menu"
+              }
+            ],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "3ed2a657e6e9dde32ae8f46c239b251a"
+        },
+        {
+          "ref": "key_1f8ed658-c208-43f8-a58d-62633aea9974",
+          "keyword": [
+            "Hablar con un asesor",
+            "asesor",
+            "Asesor"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "13c83561ab7168c4af4a4721e8d9d4f5"
+        },
+        {
+          "ref": "ans_3b4fd5e9-b8ac-4c55-8a93-cdd4b3afb33b",
+          "keyword": "key_1f8ed658-c208-43f8-a58d-62633aea9974",
+          "answer": "😊Fue un gusto ayudarte, en breve un asesor *Turguide* se pondra en contacto contigo, hasta luego 👋.",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "11c96a4c773f856373271461af541cf0"
+        },
+        {
+          "ref": "key_1f09dc1b-5780-4163-bcea-c433f8911c62",
+          "keyword": [
+            "Salir",
+            "salir"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "06945413dc16e3c55d7328ffd3fdfc2e"
+        },
+        {
+          "ref": "ans_b4d2443f-fbd5-43d1-b6e0-3198d436fec3",
+          "keyword": "key_1f09dc1b-5780-4163-bcea-c433f8911c62",
+          "answer": "🤗 Fue un gusto ayudarte, si tienes alguna otra inquietud, no olvides contactarnos. 👋",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "31a12c7065ec69b503642629a8e5dd9d"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "d70b665fa2f573b9b0063e596d3a07da",
+    "from": "573212692626"
+  },
+  {
+    "ref": "12a6ac2b-f2ae-497a-8c78-42a15908ebe0",
+    "keyword": "d70b665fa2f573b9b0063e596d3a07da",
+    "answer": "Hablar con un asesor",
+    "options": {},
+    "from": "573212692626",
+    "refSerialize": "dada22b48760c035b6483ed3b79e62ea"
+  },
+  {
+    "ref": "ans_3b4fd5e9-b8ac-4c55-8a93-cdd4b3afb33b",
+    "keyword": "key_1f8ed658-c208-43f8-a58d-62633aea9974",
+    "answer": "😊Fue un gusto ayudarte, en breve un asesor *Turguide* se pondra en contacto contigo, hasta luego 👋.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "11c96a4c773f856373271461af541cf0",
+    "from": "573212692626"
+  },
+  {
+    "ref": "5f646118-eba5-4280-a0e2-a42586c5296c",
+    "keyword": "11c96a4c773f856373271461af541cf0",
+    "answer": "ummm pues mandemoslo a otro whatsapp",
+    "options": {},
+    "from": "573212692626",
+    "refSerialize": "feaf4a8fd156607f1afff60fe61ed25c"
+  },
+  {
+    "ref": "8f69e9a2-a3ba-470a-aaf0-404bb753e2d9",
+    "keyword": "feaf4a8fd156607f1afff60fe61ed25c",
+    "answer": "jajaj",
+    "options": {},
+    "from": "573212692626",
+    "refSerialize": "29d263ecbaf85076b2ff726c58ad247a"
+  },
+  {
+    "ref": "8650abcb-9fcd-4bf9-aae5-c322638644ab",
+    "keyword": "29d263ecbaf85076b2ff726c58ad247a",
+    "answer": "veeee",
+    "options": {},
+    "from": "573212692626",
+    "refSerialize": "783e2a52d65ed05f66181ad046ee79fa"
+  },
+  {
+    "ref": "feebce3c-d1a2-4196-bbad-8cad9252488b",
+    "keyword": "783e2a52d65ed05f66181ad046ee79fa",
+    "answer": "pero no te adelantes tantooo",
+    "options": {},
+    "from": "573212692626",
+    "refSerialize": "4a462f2c758f7edd89367b1290b17a28"
+  },
+  {
+    "ref": "752b2a10-b4aa-48a8-b201-c48877ef584a",
+    "keyword": "4a462f2c758f7edd89367b1290b17a28",
+    "answer": "poneme al dia",
+    "options": {},
+    "from": "573212692626",
+    "refSerialize": "f906e17f7d606d6bd20e6fea3a14dc8c"
+  },
+  {
+    "ref": "90ba8cf2-72d1-4353-a2e9-c03283608b30",
+    "keyword": "f906e17f7d606d6bd20e6fea3a14dc8c",
+    "answer": "solo le enviamos el enlace al wa.m",
+    "options": {},
+    "from": "573212692626",
+    "refSerialize": "33911f8330c0b44376e0f4e8953edc3f"
+  },
+  {
+    "ref": "e966af85-a0c9-4774-b703-0f6d388d3cb8",
+    "keyword": "33911f8330c0b44376e0f4e8953edc3f",
+    "answer": "y ya haciendo clic aho se va pa otro",
+    "options": {},
+    "from": "573212692626",
+    "refSerialize": "70d9306ebbadde1f3335d8a6d95cd3e1"
+  },
+  {
+    "ref": "ans_5c1d2c6f-aef0-4400-b27b-e2aee24aa48f",
+    "keyword": "key_a370f778-734a-4ebe-bafc-d6ecadda5269",
+    "answer": "🙌 Hola bienvenido *Turguide*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "fde7b1060dd2c3710e9dd21746b63eb6",
+    "from": "573217980766"
+  },
+  {
+    "ref": "ans_d514ca32-5549-49e3-a346-e77d1513429c",
+    "keyword": "ans_5c1d2c6f-aef0-4400-b27b-e2aee24aa48f",
+    "answer": "En que podemos ayudarte el dia de hoy?",
+    "options": {
+      "media": null,
+      "buttons": [
+        {
+          "body": "Quiero estar en Turguide!"
+        },
+        {
+          "body": "Hablar con un asesor"
+        },
+        {
+          "body": "Salir"
+        }
+      ],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_8f026a53-69cf-40c6-aab9-774e22a42b8b",
+          "keyword": [
+            "Quiero estar en Turguide!"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "aa5e724445a2f26c95cc519bd40327b1"
+        },
+        {
+          "ref": "ans_792f6593-73e7-422e-9383-b6e9ac7e73d8",
+          "keyword": "key_8f026a53-69cf-40c6-aab9-774e22a42b8b",
+          "answer": "Estos son los pasos que debes seguir para ser parte de nuesto gran equipo!!😊🙌:\n*1*. Ingresa a https://turguide.app/\n*2*. Registra tus datos personales y de tu negocio\n*3*. Espera nuestra respuesta 🥳",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c1d0dd04ab90ac70955750eedf2f426d"
+        },
+        {
+          "ref": "ans_f5cfd9ff-bfea-478e-9566-d275a6622332",
+          "keyword": "ans_792f6593-73e7-422e-9383-b6e9ac7e73d8",
+          "answer": "Volver al menu principal?",
+          "options": {
+            "media": null,
+            "buttons": [
+              {
+                "body": "Volver al menu"
+              }
+            ],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "3ed2a657e6e9dde32ae8f46c239b251a"
+        },
+        {
+          "ref": "key_1f8ed658-c208-43f8-a58d-62633aea9974",
+          "keyword": [
+            "Hablar con un asesor",
+            "asesor",
+            "Asesor"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "13c83561ab7168c4af4a4721e8d9d4f5"
+        },
+        {
+          "ref": "ans_3b4fd5e9-b8ac-4c55-8a93-cdd4b3afb33b",
+          "keyword": "key_1f8ed658-c208-43f8-a58d-62633aea9974",
+          "answer": "😊Fue un gusto ayudarte, en breve un asesor *Turguide* se pondra en contacto contigo, hasta luego 👋.",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "11c96a4c773f856373271461af541cf0"
+        },
+        {
+          "ref": "key_1f09dc1b-5780-4163-bcea-c433f8911c62",
+          "keyword": [
+            "Salir",
+            "salir"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "06945413dc16e3c55d7328ffd3fdfc2e"
+        },
+        {
+          "ref": "ans_b4d2443f-fbd5-43d1-b6e0-3198d436fec3",
+          "keyword": "key_1f09dc1b-5780-4163-bcea-c433f8911c62",
+          "answer": "🤗 Fue un gusto ayudarte, si tienes alguna otra inquietud, no olvides contactarnos. 👋",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "31a12c7065ec69b503642629a8e5dd9d"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "d70b665fa2f573b9b0063e596d3a07da",
+    "from": "573217980766"
+  },
+  {
+    "ref": "279e60ce-cab1-40f5-b8b3-4f08e1d15b51",
+    "keyword": "11c96a4c773f856373271461af541cf0",
+    "answer": "Hola",
+    "options": {},
+    "from": "573103879248",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_5c1d2c6f-aef0-4400-b27b-e2aee24aa48f",
+    "keyword": "key_a370f778-734a-4ebe-bafc-d6ecadda5269",
+    "answer": "🙌 Hola bienvenido *Turguide*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "fde7b1060dd2c3710e9dd21746b63eb6",
+    "from": "573103879248"
+  },
+  {
+    "ref": "ans_d514ca32-5549-49e3-a346-e77d1513429c",
+    "keyword": "ans_5c1d2c6f-aef0-4400-b27b-e2aee24aa48f",
+    "answer": "En que podemos ayudarte el dia de hoy?",
+    "options": {
+      "media": null,
+      "buttons": [
+        {
+          "body": "Quiero estar en Turguide!"
+        },
+        {
+          "body": "Hablar con un asesor"
+        },
+        {
+          "body": "Salir"
+        }
+      ],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_8f026a53-69cf-40c6-aab9-774e22a42b8b",
+          "keyword": [
+            "Quiero estar en Turguide!"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "aa5e724445a2f26c95cc519bd40327b1"
+        },
+        {
+          "ref": "ans_792f6593-73e7-422e-9383-b6e9ac7e73d8",
+          "keyword": "key_8f026a53-69cf-40c6-aab9-774e22a42b8b",
+          "answer": "Estos son los pasos que debes seguir para ser parte de nuesto gran equipo!!😊🙌:\n*1*. Ingresa a https://turguide.app/\n*2*. Registra tus datos personales y de tu negocio\n*3*. Espera nuestra respuesta 🥳",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c1d0dd04ab90ac70955750eedf2f426d"
+        },
+        {
+          "ref": "ans_f5cfd9ff-bfea-478e-9566-d275a6622332",
+          "keyword": "ans_792f6593-73e7-422e-9383-b6e9ac7e73d8",
+          "answer": "Volver al menu principal?",
+          "options": {
+            "media": null,
+            "buttons": [
+              {
+                "body": "Volver al menu"
+              }
+            ],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "3ed2a657e6e9dde32ae8f46c239b251a"
+        },
+        {
+          "ref": "key_1f8ed658-c208-43f8-a58d-62633aea9974",
+          "keyword": [
+            "Hablar con un asesor",
+            "asesor",
+            "Asesor"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "13c83561ab7168c4af4a4721e8d9d4f5"
+        },
+        {
+          "ref": "ans_3b4fd5e9-b8ac-4c55-8a93-cdd4b3afb33b",
+          "keyword": "key_1f8ed658-c208-43f8-a58d-62633aea9974",
+          "answer": "😊Fue un gusto ayudarte, en breve un asesor *Turguide* se pondra en contacto contigo, hasta luego 👋.",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "11c96a4c773f856373271461af541cf0"
+        },
+        {
+          "ref": "key_1f09dc1b-5780-4163-bcea-c433f8911c62",
+          "keyword": [
+            "Salir",
+            "salir"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "06945413dc16e3c55d7328ffd3fdfc2e"
+        },
+        {
+          "ref": "ans_b4d2443f-fbd5-43d1-b6e0-3198d436fec3",
+          "keyword": "key_1f09dc1b-5780-4163-bcea-c433f8911c62",
+          "answer": "🤗 Fue un gusto ayudarte, si tienes alguna otra inquietud, no olvides contactarnos. 👋",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "31a12c7065ec69b503642629a8e5dd9d"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "d70b665fa2f573b9b0063e596d3a07da",
+    "from": "573103879248"
+  },
+  {
+    "ref": "87bc37c2-8d46-44c2-852e-de532109a632",
+    "keyword": "d70b665fa2f573b9b0063e596d3a07da",
+    "answer": "Hola",
+    "options": {},
+    "from": "573217980766",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "8b271bd1-0cc0-4a09-b10c-ba40d5ae317d",
+    "keyword": "c22e4066d61d81721def9b25d8a397e8",
+    "answer": "Asesor",
+    "options": {},
+    "from": "573217980766",
+    "refSerialize": "b64328d9b8fd80ff43ca1a938fec4afa"
+  },
+  {
+    "ref": "73cc1b19-2590-4dad-accf-a77d52b884ce",
+    "keyword": "b64328d9b8fd80ff43ca1a938fec4afa",
+    "answer": "Hola",
+    "options": {},
+    "from": "573217980766",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_5c1d2c6f-aef0-4400-b27b-e2aee24aa48f",
+    "keyword": "key_a370f778-734a-4ebe-bafc-d6ecadda5269",
+    "answer": "🙌 Hola bienvenido *Turguide*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "fde7b1060dd2c3710e9dd21746b63eb6",
+    "from": "573217980766"
+  },
+  {
+    "ref": "ans_d514ca32-5549-49e3-a346-e77d1513429c",
+    "keyword": "ans_5c1d2c6f-aef0-4400-b27b-e2aee24aa48f",
+    "answer": "En que podemos ayudarte el dia de hoy?",
+    "options": {
+      "media": null,
+      "buttons": [
+        {
+          "body": "Quiero estar en Turguide!"
+        },
+        {
+          "body": "Hablar con un asesor"
+        },
+        {
+          "body": "Salir"
+        }
+      ],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_8f026a53-69cf-40c6-aab9-774e22a42b8b",
+          "keyword": [
+            "Quiero estar en Turguide!"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "aa5e724445a2f26c95cc519bd40327b1"
+        },
+        {
+          "ref": "ans_792f6593-73e7-422e-9383-b6e9ac7e73d8",
+          "keyword": "key_8f026a53-69cf-40c6-aab9-774e22a42b8b",
+          "answer": "Estos son los pasos que debes seguir para ser parte de nuesto gran equipo!!😊🙌:\n*1*. Ingresa a https://turguide.app/\n*2*. Registra tus datos personales y de tu negocio\n*3*. Espera nuestra respuesta 🥳",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c1d0dd04ab90ac70955750eedf2f426d"
+        },
+        {
+          "ref": "ans_f5cfd9ff-bfea-478e-9566-d275a6622332",
+          "keyword": "ans_792f6593-73e7-422e-9383-b6e9ac7e73d8",
+          "answer": "Volver al menu principal?",
+          "options": {
+            "media": null,
+            "buttons": [
+              {
+                "body": "Volver al menu"
+              }
+            ],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "3ed2a657e6e9dde32ae8f46c239b251a"
+        },
+        {
+          "ref": "key_1f8ed658-c208-43f8-a58d-62633aea9974",
+          "keyword": [
+            "Hablar con un asesor",
+            "asesor",
+            "Asesor"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "13c83561ab7168c4af4a4721e8d9d4f5"
+        },
+        {
+          "ref": "ans_3b4fd5e9-b8ac-4c55-8a93-cdd4b3afb33b",
+          "keyword": "key_1f8ed658-c208-43f8-a58d-62633aea9974",
+          "answer": "😊Fue un gusto ayudarte, en breve un asesor *Turguide* se pondra en contacto contigo, hasta luego 👋.",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "11c96a4c773f856373271461af541cf0"
+        },
+        {
+          "ref": "key_1f09dc1b-5780-4163-bcea-c433f8911c62",
+          "keyword": [
+            "Salir",
+            "salir"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "06945413dc16e3c55d7328ffd3fdfc2e"
+        },
+        {
+          "ref": "ans_b4d2443f-fbd5-43d1-b6e0-3198d436fec3",
+          "keyword": "key_1f09dc1b-5780-4163-bcea-c433f8911c62",
+          "answer": "🤗 Fue un gusto ayudarte, si tienes alguna otra inquietud, no olvides contactarnos. 👋",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "31a12c7065ec69b503642629a8e5dd9d"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "d70b665fa2f573b9b0063e596d3a07da",
+    "from": "573217980766"
+  },
+  {
+    "ref": "947b1bfd-4428-4582-88bd-0f796fbf5f34",
+    "keyword": "d70b665fa2f573b9b0063e596d3a07da",
+    "answer": "Hola",
+    "options": {},
+    "from": "573217980766",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  }
+]
