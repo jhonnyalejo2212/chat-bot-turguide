@@ -1,6 +1,6 @@
 const { addKeyword } = require("@bot-whatsapp/bot");
 
-const flowProducts = addKeyword(['Quiero estar en Turguide!']).addAnswer(
+const flowProducts = addKeyword(['1']).addAnswer(
   [
     'Estos son los pasos que debes seguir para ser parte de nuesto gran equipo!!😊🙌:',
     '*1*. Ingresa a https://turguide.app/',
@@ -10,12 +10,10 @@ const flowProducts = addKeyword(['Quiero estar en Turguide!']).addAnswer(
   null,
   null,
   []
-).addAnswer('Volver al menu principal?', {
-  buttons: [
-    {
-      body: "Volver al menu"
-    },
+).addAnswer(
+  [
+    'Escribre *menu* para regresar el menu principal'
   ]
-})
+)
 
 module.exports = flowProducts;

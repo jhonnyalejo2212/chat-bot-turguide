@@ -1,6 +1,6 @@
 const { addKeyword } = require("@bot-whatsapp/bot");
 
-const flowPrices = addKeyword(['Saber el precio', 'precio'])
+const flowPrices = addKeyword(['3', 'precio'])
   .addAnswer(
     [
         'Es muuuy económico, clic aqui *www.turguide.app*.',

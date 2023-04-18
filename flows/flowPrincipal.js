@@ -5,26 +5,21 @@ const flowAgent = require("./flowAgent");
 const flowPrices = require("./flowPrices");
 
 
-const flowPrincipal = addKeyword([EVENTS.WELCOME, 'Volver al menu'])
+const flowPrincipal = addKeyword([EVENTS.WELCOME, 'menu'])
     .addAnswer('🙌 Hola bienvenido a *Turguide!*')
-    .addAnswer('En que podemos ayudarte el dia de hoy?', {
-        buttons: [
-            {
-                body: "Quiero estar en Turguide!"
-            },
-            {
-                body: "Hablar con un asesor"
-            },
-            {
-                body: 'Saber el precio'
-            },
-            {
-                body: "Salir"
-            }
-        ]
-    },
+    .addAnswer(
+        [
+            "¿En que podemos ayudarte el dia de hoy?",
+            "'Responda con el numero de la opcion!'",
+            "",
+            "*1* Quiero estar en Turguide!",
+            "*2* Hablar con un asesor",
+            "*3* Saber el precio",
+            "*4* Salir",
+        ],
+        null,
         null,
         [flowProducts, flowAgent, flowPrices, flowExit]
-    )
+      )
 
 module.exports = flowPrincipal;
