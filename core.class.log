@@ -1,0 +1,57 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573007832002@s.whatsapp.net',
+    fromMe: false,
+    id: 'CE32478221CBDE815EC0E63430327E89',
+    participant: undefined
+  },
+  messageTimestamp: 1681775926,
+  pushName: '📲  www.turguide.app',
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '573007832002'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573007832002@s.whatsapp.net',
+    fromMe: false,
+    id: '875E881E64B895B81895080CD0B2E26D',
+    participant: undefined
+  },
+  messageTimestamp: 1681776358,
+  pushName: '📲  www.turguide.app',
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '573007832002'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573007832002@s.whatsapp.net',
+    fromMe: false,
+    id: '1888E5DA6E1F4FC2B05E96A59A991EAF',
+    participant: undefined
+  },
+  messageTimestamp: 1681776381,
+  pushName: '📲  www.turguide.app',
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '573007832002'
+}
