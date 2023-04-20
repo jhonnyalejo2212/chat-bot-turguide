@@ -25,7 +25,7 @@ if (hora >= 19 && hora < 7) {
       "*2* Hablar con un asesor",
       "*3* Saber el precio",
       "*4* Necesito información",
-      "*5* Enviar audio e imagen",
+      "*5* Enviar audio, imagen y archivo PDF",
     ],
     { capture: true },
     async (ctx, { flowDynamic, endFlow, fallBack }) => {
