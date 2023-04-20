@@ -17,11 +17,11 @@ if (hora >= 19 && hora < 7) {
 } else {
   flowPrincipal = addKeyword(['Hola', 'hola', 'MENU', 'menu']).addAnswer(
     [
-      '🙌 Hola bienvenido a *Aplex!*',
+      '🙌 Hola bienvenido a *MI NEGOCIO!*',
       "¿En que podemos ayudarte el dia de hoy?",
       "'Responda con el numero de la opcion!'",
       "",
-      "*1* Quiero estar en Aplex!",
+      "*1* Quiero estar en MI NEGOCIO!",
       "*2* Hablar con un asesor",
       "*3* Saber el precio",
       "*4* Necesito información",

@@ -3,7 +3,7 @@ const { addKeyword } = require("@bot-whatsapp/bot");
 const flowPrices = addKeyword(['3', 'precio'])
   .addAnswer(
     [
-        'Es muuuy económico, clic aqui *www.aplextm.com*.',
+        'Es muuuy económico, clic aqui *www.minegocio.com*.',
         '*1*. Plan Básico 🥳',
         '*2*. Plan Medio 🥳'
     
