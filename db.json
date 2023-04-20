@@ -1,42 +1,17 @@
 [
   {
-    "ref": "dcd41da0-49b9-4182-b431-0b722d4aa336",
-    "keyword": "f9d59c4129b804e73cc5a11f765fec12",
-    "answer": "hola",
-    "options": {},
-    "from": "573103879248",
-    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
-  },
-  {
-    "ref": "ans_623c2f81-55a4-4e34-9276-9c908bda0c2e",
-    "keyword": "key_fb7f2990-fa48-4223-91f4-5900cf31fd4c",
-    "answer": "🙌 Hola bienvenido a *Turguide!*",
+    "ref": "ans_7c686dfa-5894-47a3-8724-a3fb91160eaa",
+    "keyword": "key_8fc10601-2ac4-4413-b192-589392b05363",
+    "answer": "🙌 Hola bienvenido a *Aplex!*\n¿En que podemos ayudarte el dia de hoy?\n'Responda con el numero de la opcion!'\n\n*1* Quiero estar en Aplex!\n*2* Hablar con un asesor\n*3* Saber el precio\n*4* Necesito información\n*5* Enviar audio",
     "options": {
       "media": null,
       "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "0e4bca349f1a2b4463062ef9527e2e42",
-    "from": "573103879248"
-  },
-  {
-    "ref": "ans_dd25c5e9-ac74-4bf6-9889-cb2156ff6ce9",
-    "keyword": "ans_623c2f81-55a4-4e34-9276-9c908bda0c2e",
-    "answer": "¿En que podemos ayudarte el dia de hoy?\n'Responda con el numero de la opcion!'\n\n*1* Quiero estar en Turguide!\n*2* Hablar con un asesor\n*3* Saber el precio\n*4* Salir",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
+      "capture": true,
       "child": null,
       "delay": 0,
       "nested": [
         {
-          "ref": "key_2e49e1aa-64d4-4d9a-88c9-7c0e08f6c7c3",
+          "ref": "key_223ff438-f215-4bb0-bac8-7d1c0cd861f9",
           "keyword": [
             "1"
           ],
@@ -47,9 +22,9 @@
           "refSerialize": "e0b2cd1acac633ea641e2d526690d369"
         },
         {
-          "ref": "ans_e027da07-88d1-4be4-972e-2cfb16a54f18",
-          "keyword": "key_2e49e1aa-64d4-4d9a-88c9-7c0e08f6c7c3",
-          "answer": "Estos son los pasos que debes seguir para ser parte de nuesto gran equipo!!😊🙌:\n*1*. Ingresa a https://turguide.app/\n*2*. Registra tus datos personales y de tu negocio\n*3*. Espera nuestra respuesta 🥳",
+          "ref": "ans_3282f0e1-862c-489f-b6eb-65fc1be662c9",
+          "keyword": "key_223ff438-f215-4bb0-bac8-7d1c0cd861f9",
+          "answer": "Estos son los pasos que debes seguir para ser parte de nuesto gran equipo!!😊🙌:\n*1*. Ingresa a https://aplextm.com/\n*2*. Registra tus datos personales y de tu negocio\n*3*. Espera nuestra respuesta 🥳",
           "options": {
             "media": null,
             "buttons": [],
@@ -60,12 +35,12 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "3796d813fdd9c1a102221595e5c5aff3"
+          "refSerialize": "d9284483e737f2a179407bdd5d6bf0ed"
         },
         {
-          "ref": "ans_c94fe50c-cdf5-47e3-bee1-721627864dbf",
-          "keyword": "ans_e027da07-88d1-4be4-972e-2cfb16a54f18",
-          "answer": "Escribre *menu* para ver el menu principal",
+          "ref": "ans_b1412918-798f-4942-8fd4-3ff1957c11a6",
+          "keyword": "ans_3282f0e1-862c-489f-b6eb-65fc1be662c9",
+          "answer": "Escribre *menu* para regresar el menu principal",
           "options": {
             "media": null,
             "buttons": [],
@@ -76,25 +51,21 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "cef71d048e210e8ec5f572a0322c940c"
+          "refSerialize": "b5d04b451b1416521f1df4b7c4461640"
         },
         {
-          "ref": "key_3513373f-2a06-4cfe-87d6-4f01c42084c4",
-          "keyword": [
-            "2",
-            "asesor",
-            "Asesor"
-          ],
+          "ref": "key_b572753a-5012-4ea7-96be-d91013e3e54f",
+          "keyword": "2",
           "options": {
-            "sensitive": false,
+            "sensitive": true,
             "regex": false
           },
-          "refSerialize": "0f9d469644426bf3e34649d68c6598d8"
+          "refSerialize": "900c9aa0094bfcca4a316ec66236e2fc"
         },
         {
-          "ref": "ans_0e7f1809-0331-414b-b222-bbf55e631aab",
-          "keyword": "key_3513373f-2a06-4cfe-87d6-4f01c42084c4",
-          "answer": "😊Fue un gusto ayudarte, en breve un asesor *Turguide* se pondra en contacto contigo, hasta luego 👋.",
+          "ref": "ans_01c8dcb0-e097-4c02-8a92-f415761b8798",
+          "keyword": "key_b572753a-5012-4ea7-96be-d91013e3e54f",
+          "answer": "Estamos desviando tu conversacion a nuestro agente 😊",
           "options": {
             "media": null,
             "buttons": [],
@@ -105,10 +76,42 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "1ef9e31fdea77edd2d89baad04635a91"
+          "refSerialize": "1f1ee72039d27bf88caffb6b7b12f54a"
         },
         {
-          "ref": "key_d975effd-4bf0-4375-ae77-9297b1b4bbce",
+          "ref": "ans_64a1a124-6844-48ab-87b0-02eb2ffd0312",
+          "keyword": "ans_01c8dcb0-e097-4c02-8a92-f415761b8798",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "d165ff6d59190712687958904c4f054c"
+        },
+        {
+          "ref": "ans_d9f584e8-7f2a-42d7-b413-f9b08fb1453e",
+          "keyword": "ans_64a1a124-6844-48ab-87b0-02eb2ffd0312",
+          "answer": "Te hemos agregado a un grupo con un asesor! Gracias👋",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "0251bec0699e7d0cad06609a8994e7fa"
+        },
+        {
+          "ref": "key_c0db9a58-8530-4e16-a2cc-8fcf129b4d86",
           "keyword": [
             "3",
             "precio"
@@ -120,9 +123,9 @@
           "refSerialize": "18805e4bb3990c1cd9b5f514f9f8ac54"
         },
         {
-          "ref": "ans_2d5eb2ea-6951-4953-9042-50709bced4d3",
-          "keyword": "key_d975effd-4bf0-4375-ae77-9297b1b4bbce",
-          "answer": "Es muuuy económico, clic aqui *www.turguide.app*.\n*1*. Plan Básico 🥳\n*2*. Plan Medio 🥳",
+          "ref": "ans_58281e28-e025-4197-b53d-6aee3a88f62c",
+          "keyword": "key_c0db9a58-8530-4e16-a2cc-8fcf129b4d86",
+          "answer": "Es muuuy económico, clic aqui *www.aplextm.com*.\n*1*. Plan Básico 🥳\n*2*. Plan Medio 🥳",
           "options": {
             "media": null,
             "buttons": [],
@@ -133,25 +136,215 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "c0890eeeec4cd673ebf93795f8115c6e"
+          "refSerialize": "f9c8aea6b50f4f2001538d4a02529b0e"
         },
         {
-          "ref": "key_2a0e260b-4282-4061-bd96-a8a2ca2ffecc",
+          "ref": "key_cdd0681e-aeb6-47a6-a602-3266c4dd082e",
+          "keyword": "4",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "fc09f52170be47fcb14a1cee9c5d3c52"
+        },
+        {
+          "ref": "ans_d805577d-c105-4602-81ef-8e3f398d23ed",
+          "keyword": "key_cdd0681e-aeb6-47a6-a602-3266c4dd082e",
+          "answer": "Hola!\nPara enviar el formulario necesito unos datos...\nEscriba su *Nombre*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "f21c6a3ab3c58f37312539119fbfd86f"
+        },
+        {
+          "ref": "ans_1ef6ff40-aca7-452b-a7cb-589a6507b6df",
+          "keyword": "ans_d805577d-c105-4602-81ef-8e3f398d23ed",
+          "answer": "También necesito tus dos apellidos",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "a9d83021f3026ce164775b0373f5ea45"
+        },
+        {
+          "ref": "ans_6925f52a-0036-437c-ac98-94297ba8b9ef",
+          "keyword": "ans_1ef6ff40-aca7-452b-a7cb-589a6507b6df",
+          "answer": "Dejeme su número de teléfono y le llamaré lo antes posible.",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "a83e3c2d7cfb209fb4a328cf5b705062"
+        },
+        {
+          "ref": "ans_cde048d9-0590-485b-9938-6354776778c0",
+          "keyword": "ans_6925f52a-0036-437c-ac98-94297ba8b9ef",
+          "answer": "Si deseas alguna otra consulta, por favor escribe la opcion *MENU*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c5627f3081371786ce1e7f64c6a72006"
+        },
+        {
+          "ref": "key_3f49011d-774b-4756-a307-90561823aa7b",
           "keyword": [
-            "4",
-            "Salir",
-            "salir"
+            "5"
           ],
           "options": {
             "sensitive": false,
             "regex": false
           },
-          "refSerialize": "0e8dd83ba3905f6ea079667e3b1605cf"
+          "refSerialize": "47670bebf9089082e1ec81e842012d5b"
         },
         {
-          "ref": "ans_70ba892a-41b1-4974-a681-74742c10a3da",
-          "keyword": "key_2a0e260b-4282-4061-bd96-a8a2ca2ffecc",
-          "answer": "🤗 Fue un gusto ayudarte, si tienes alguna otra inquietud, no olvides contactarnos. 👋",
+          "ref": "ans_d652e167-daf3-4dd8-a5a1-206c6f8909ae",
+          "keyword": "key_3f49011d-774b-4756-a307-90561823aa7b",
+          "answer": "Enviando audio",
+          "options": {
+            "media": "https://demo.4plbox.com/img/prueba-bot/audio.ogg",
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "0e5d48a19e5c5f6ae8cef010b9fe922c"
+        },
+        {
+          "ref": "ans_acbf7e4f-5328-4378-9039-c647c6fecc64",
+          "keyword": "ans_d652e167-daf3-4dd8-a5a1-206c6f8909ae",
+          "answer": "Enviando imagen",
+          "options": {
+            "media": "https://demo.4plbox.com/img/prueba-bot/bot-image.png",
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "1b293d3a092f67d2f5ea77bac90990d4"
+        }
+      ],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "abafc59ec198a79b20a853881a550900",
+    "from": "573217980766"
+  },
+  {
+    "ref": "027ac369-74c2-4713-be41-e675c112f58e",
+    "keyword": "abafc59ec198a79b20a853881a550900",
+    "answer": "5",
+    "options": {},
+    "from": "573217980766",
+    "refSerialize": "d2b414a4bc0b3490276097c7513b4c8c"
+  },
+  {
+    "ref": "ans_d652e167-daf3-4dd8-a5a1-206c6f8909ae",
+    "keyword": "key_3f49011d-774b-4756-a307-90561823aa7b",
+    "answer": "Enviando audio",
+    "options": {
+      "media": "https://demo.4plbox.com/img/prueba-bot/audio.ogg",
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "0e5d48a19e5c5f6ae8cef010b9fe922c",
+    "from": "573217980766"
+  },
+  {
+    "ref": "ans_acbf7e4f-5328-4378-9039-c647c6fecc64",
+    "keyword": "ans_d652e167-daf3-4dd8-a5a1-206c6f8909ae",
+    "answer": "Enviando imagen",
+    "options": {
+      "media": "https://demo.4plbox.com/img/prueba-bot/bot-image.png",
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "1b293d3a092f67d2f5ea77bac90990d4",
+    "from": "573217980766"
+  },
+  {
+    "ref": "f917a5ff-f2f5-44f0-aba2-7855b53c72c0",
+    "keyword": "1b293d3a092f67d2f5ea77bac90990d4",
+    "answer": "4",
+    "options": {},
+    "from": "573217980766",
+    "refSerialize": "e8139b7fa2fbc1b48f247924f8ad1961"
+  },
+  {
+    "ref": "ea75d0d4-1468-4e0e-9f20-807fb41e64b3",
+    "keyword": "e8139b7fa2fbc1b48f247924f8ad1961",
+    "answer": "Hola",
+    "options": {},
+    "from": "573217980766",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_7c686dfa-5894-47a3-8724-a3fb91160eaa",
+    "keyword": "key_8fc10601-2ac4-4413-b192-589392b05363",
+    "answer": "🙌 Hola bienvenido a *Aplex!*\n¿En que podemos ayudarte el dia de hoy?\n'Responda con el numero de la opcion!'\n\n*1* Quiero estar en Aplex!\n*2* Hablar con un asesor\n*3* Saber el precio\n*4* Necesito información\n*5* Enviar audio",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_223ff438-f215-4bb0-bac8-7d1c0cd861f9",
+          "keyword": [
+            "1"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "e0b2cd1acac633ea641e2d526690d369"
+        },
+        {
+          "ref": "ans_3282f0e1-862c-489f-b6eb-65fc1be662c9",
+          "keyword": "key_223ff438-f215-4bb0-bac8-7d1c0cd861f9",
+          "answer": "Estos son los pasos que debes seguir para ser parte de nuesto gran equipo!!😊🙌:\n*1*. Ingresa a https://aplextm.com/\n*2*. Registra tus datos personales y de tu negocio\n*3*. Espera nuestra respuesta 🥳",
           "options": {
             "media": null,
             "buttons": [],
@@ -162,27 +355,244 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "9d7a7ccc48479f8b553a4c589cab338f"
+          "refSerialize": "d9284483e737f2a179407bdd5d6bf0ed"
+        },
+        {
+          "ref": "ans_b1412918-798f-4942-8fd4-3ff1957c11a6",
+          "keyword": "ans_3282f0e1-862c-489f-b6eb-65fc1be662c9",
+          "answer": "Escribre *menu* para regresar el menu principal",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "b5d04b451b1416521f1df4b7c4461640"
+        },
+        {
+          "ref": "key_b572753a-5012-4ea7-96be-d91013e3e54f",
+          "keyword": "2",
+          "options": {
+            "sensitive": true,
+            "regex": false
+          },
+          "refSerialize": "900c9aa0094bfcca4a316ec66236e2fc"
+        },
+        {
+          "ref": "ans_01c8dcb0-e097-4c02-8a92-f415761b8798",
+          "keyword": "key_b572753a-5012-4ea7-96be-d91013e3e54f",
+          "answer": "Estamos desviando tu conversacion a nuestro agente 😊",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "1f1ee72039d27bf88caffb6b7b12f54a"
+        },
+        {
+          "ref": "ans_64a1a124-6844-48ab-87b0-02eb2ffd0312",
+          "keyword": "ans_01c8dcb0-e097-4c02-8a92-f415761b8798",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "d165ff6d59190712687958904c4f054c"
+        },
+        {
+          "ref": "ans_d9f584e8-7f2a-42d7-b413-f9b08fb1453e",
+          "keyword": "ans_64a1a124-6844-48ab-87b0-02eb2ffd0312",
+          "answer": "Te hemos agregado a un grupo con un asesor! Gracias👋",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "0251bec0699e7d0cad06609a8994e7fa"
+        },
+        {
+          "ref": "key_c0db9a58-8530-4e16-a2cc-8fcf129b4d86",
+          "keyword": [
+            "3",
+            "precio"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "18805e4bb3990c1cd9b5f514f9f8ac54"
+        },
+        {
+          "ref": "ans_58281e28-e025-4197-b53d-6aee3a88f62c",
+          "keyword": "key_c0db9a58-8530-4e16-a2cc-8fcf129b4d86",
+          "answer": "Es muuuy económico, clic aqui *www.aplextm.com*.\n*1*. Plan Básico 🥳\n*2*. Plan Medio 🥳",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "f9c8aea6b50f4f2001538d4a02529b0e"
+        },
+        {
+          "ref": "key_cdd0681e-aeb6-47a6-a602-3266c4dd082e",
+          "keyword": "4",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "fc09f52170be47fcb14a1cee9c5d3c52"
+        },
+        {
+          "ref": "ans_d805577d-c105-4602-81ef-8e3f398d23ed",
+          "keyword": "key_cdd0681e-aeb6-47a6-a602-3266c4dd082e",
+          "answer": "Hola!\nPara enviar el formulario necesito unos datos...\nEscriba su *Nombre*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "f21c6a3ab3c58f37312539119fbfd86f"
+        },
+        {
+          "ref": "ans_1ef6ff40-aca7-452b-a7cb-589a6507b6df",
+          "keyword": "ans_d805577d-c105-4602-81ef-8e3f398d23ed",
+          "answer": "También necesito tus dos apellidos",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "a9d83021f3026ce164775b0373f5ea45"
+        },
+        {
+          "ref": "ans_6925f52a-0036-437c-ac98-94297ba8b9ef",
+          "keyword": "ans_1ef6ff40-aca7-452b-a7cb-589a6507b6df",
+          "answer": "Dejeme su número de teléfono y le llamaré lo antes posible.",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "a83e3c2d7cfb209fb4a328cf5b705062"
+        },
+        {
+          "ref": "ans_cde048d9-0590-485b-9938-6354776778c0",
+          "keyword": "ans_6925f52a-0036-437c-ac98-94297ba8b9ef",
+          "answer": "Si deseas alguna otra consulta, por favor escribe la opcion *MENU*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c5627f3081371786ce1e7f64c6a72006"
+        },
+        {
+          "ref": "key_3f49011d-774b-4756-a307-90561823aa7b",
+          "keyword": [
+            "5"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "47670bebf9089082e1ec81e842012d5b"
+        },
+        {
+          "ref": "ans_d652e167-daf3-4dd8-a5a1-206c6f8909ae",
+          "keyword": "key_3f49011d-774b-4756-a307-90561823aa7b",
+          "answer": "Enviando audio",
+          "options": {
+            "media": "https://demo.4plbox.com/img/prueba-bot/audio.ogg",
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "0e5d48a19e5c5f6ae8cef010b9fe922c"
+        },
+        {
+          "ref": "ans_acbf7e4f-5328-4378-9039-c647c6fecc64",
+          "keyword": "ans_d652e167-daf3-4dd8-a5a1-206c6f8909ae",
+          "answer": "Enviando imagen",
+          "options": {
+            "media": "https://demo.4plbox.com/img/prueba-bot/bot-image.png",
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "1b293d3a092f67d2f5ea77bac90990d4"
         }
       ],
       "keyword": {},
-      "callback": false
+      "callback": true
     },
-    "refSerialize": "d854e42c02a6923e65713afdab792dab",
-    "from": "573103879248"
+    "refSerialize": "abafc59ec198a79b20a853881a550900",
+    "from": "573217980766"
   },
   {
-    "ref": "2237fa64-9bb5-4f08-aea4-0d8eef93df3f",
-    "keyword": "d854e42c02a6923e65713afdab792dab",
+    "ref": "93eaa5ef-ce2d-4acc-8af2-58bb8e5ef0f7",
+    "keyword": "abafc59ec198a79b20a853881a550900",
     "answer": "1",
     "options": {},
-    "from": "573103879248",
+    "from": "573217980766",
     "refSerialize": "290236b1d481a790a200ea6e94b2122a"
   },
   {
-    "ref": "ans_e027da07-88d1-4be4-972e-2cfb16a54f18",
-    "keyword": "key_2e49e1aa-64d4-4d9a-88c9-7c0e08f6c7c3",
-    "answer": "Estos son los pasos que debes seguir para ser parte de nuesto gran equipo!!😊🙌:\n*1*. Ingresa a https://turguide.app/\n*2*. Registra tus datos personales y de tu negocio\n*3*. Espera nuestra respuesta 🥳",
+    "ref": "ans_3282f0e1-862c-489f-b6eb-65fc1be662c9",
+    "keyword": "key_223ff438-f215-4bb0-bac8-7d1c0cd861f9",
+    "answer": "Estos son los pasos que debes seguir para ser parte de nuesto gran equipo!!😊🙌:\n*1*. Ingresa a https://aplextm.com/\n*2*. Registra tus datos personales y de tu negocio\n*3*. Espera nuestra respuesta 🥳",
     "options": {
       "media": null,
       "buttons": [],
@@ -193,13 +603,13 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "3796d813fdd9c1a102221595e5c5aff3",
-    "from": "573103879248"
+    "refSerialize": "d9284483e737f2a179407bdd5d6bf0ed",
+    "from": "573217980766"
   },
   {
-    "ref": "ans_c94fe50c-cdf5-47e3-bee1-721627864dbf",
-    "keyword": "ans_e027da07-88d1-4be4-972e-2cfb16a54f18",
-    "answer": "Escribre *menu* para ver el menu principal",
+    "ref": "ans_b1412918-798f-4942-8fd4-3ff1957c11a6",
+    "keyword": "ans_3282f0e1-862c-489f-b6eb-65fc1be662c9",
+    "answer": "Escribre *menu* para regresar el menu principal",
     "options": {
       "media": null,
       "buttons": [],
@@ -210,47 +620,30 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "cef71d048e210e8ec5f572a0322c940c",
-    "from": "573103879248"
+    "refSerialize": "b5d04b451b1416521f1df4b7c4461640",
+    "from": "573217980766"
   },
   {
-    "ref": "6eef4462-8e2e-41d2-b44d-3ebdf5325f75",
-    "keyword": "cef71d048e210e8ec5f572a0322c940c",
-    "answer": "menu",
+    "ref": "39872627-f100-4e41-9c52-3fd74f61b1db",
+    "keyword": "b5d04b451b1416521f1df4b7c4461640",
+    "answer": "Menu",
     "options": {},
-    "from": "573103879248",
-    "refSerialize": "8d19b761e0b1d940f841b37e5e559ee4"
+    "from": "573217980766",
+    "refSerialize": "1943ef5752ef89f46d7b613aaf765c9b"
   },
   {
-    "ref": "ans_623c2f81-55a4-4e34-9276-9c908bda0c2e",
-    "keyword": "key_fb7f2990-fa48-4223-91f4-5900cf31fd4c",
-    "answer": "🙌 Hola bienvenido a *Turguide!*",
+    "ref": "ans_7c686dfa-5894-47a3-8724-a3fb91160eaa",
+    "keyword": "key_8fc10601-2ac4-4413-b192-589392b05363",
+    "answer": "🙌 Hola bienvenido a *Aplex!*\n¿En que podemos ayudarte el dia de hoy?\n'Responda con el numero de la opcion!'\n\n*1* Quiero estar en Aplex!\n*2* Hablar con un asesor\n*3* Saber el precio\n*4* Necesito información\n*5* Enviar audio",
     "options": {
       "media": null,
       "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "0e4bca349f1a2b4463062ef9527e2e42",
-    "from": "573103879248"
-  },
-  {
-    "ref": "ans_dd25c5e9-ac74-4bf6-9889-cb2156ff6ce9",
-    "keyword": "ans_623c2f81-55a4-4e34-9276-9c908bda0c2e",
-    "answer": "¿En que podemos ayudarte el dia de hoy?\n'Responda con el numero de la opcion!'\n\n*1* Quiero estar en Turguide!\n*2* Hablar con un asesor\n*3* Saber el precio\n*4* Salir",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
+      "capture": true,
       "child": null,
       "delay": 0,
       "nested": [
         {
-          "ref": "key_2e49e1aa-64d4-4d9a-88c9-7c0e08f6c7c3",
+          "ref": "key_223ff438-f215-4bb0-bac8-7d1c0cd861f9",
           "keyword": [
             "1"
           ],
@@ -261,9 +654,9 @@
           "refSerialize": "e0b2cd1acac633ea641e2d526690d369"
         },
         {
-          "ref": "ans_e027da07-88d1-4be4-972e-2cfb16a54f18",
-          "keyword": "key_2e49e1aa-64d4-4d9a-88c9-7c0e08f6c7c3",
-          "answer": "Estos son los pasos que debes seguir para ser parte de nuesto gran equipo!!😊🙌:\n*1*. Ingresa a https://turguide.app/\n*2*. Registra tus datos personales y de tu negocio\n*3*. Espera nuestra respuesta 🥳",
+          "ref": "ans_3282f0e1-862c-489f-b6eb-65fc1be662c9",
+          "keyword": "key_223ff438-f215-4bb0-bac8-7d1c0cd861f9",
+          "answer": "Estos son los pasos que debes seguir para ser parte de nuesto gran equipo!!😊🙌:\n*1*. Ingresa a https://aplextm.com/\n*2*. Registra tus datos personales y de tu negocio\n*3*. Espera nuestra respuesta 🥳",
           "options": {
             "media": null,
             "buttons": [],
@@ -274,12 +667,12 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "3796d813fdd9c1a102221595e5c5aff3"
+          "refSerialize": "d9284483e737f2a179407bdd5d6bf0ed"
         },
         {
-          "ref": "ans_c94fe50c-cdf5-47e3-bee1-721627864dbf",
-          "keyword": "ans_e027da07-88d1-4be4-972e-2cfb16a54f18",
-          "answer": "Escribre *menu* para ver el menu principal",
+          "ref": "ans_b1412918-798f-4942-8fd4-3ff1957c11a6",
+          "keyword": "ans_3282f0e1-862c-489f-b6eb-65fc1be662c9",
+          "answer": "Escribre *menu* para regresar el menu principal",
           "options": {
             "media": null,
             "buttons": [],
@@ -290,25 +683,21 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "cef71d048e210e8ec5f572a0322c940c"
+          "refSerialize": "b5d04b451b1416521f1df4b7c4461640"
         },
         {
-          "ref": "key_3513373f-2a06-4cfe-87d6-4f01c42084c4",
-          "keyword": [
-            "2",
-            "asesor",
-            "Asesor"
-          ],
+          "ref": "key_b572753a-5012-4ea7-96be-d91013e3e54f",
+          "keyword": "2",
           "options": {
-            "sensitive": false,
+            "sensitive": true,
             "regex": false
           },
-          "refSerialize": "0f9d469644426bf3e34649d68c6598d8"
+          "refSerialize": "900c9aa0094bfcca4a316ec66236e2fc"
         },
         {
-          "ref": "ans_0e7f1809-0331-414b-b222-bbf55e631aab",
-          "keyword": "key_3513373f-2a06-4cfe-87d6-4f01c42084c4",
-          "answer": "😊Fue un gusto ayudarte, en breve un asesor *Turguide* se pondra en contacto contigo, hasta luego 👋.",
+          "ref": "ans_01c8dcb0-e097-4c02-8a92-f415761b8798",
+          "keyword": "key_b572753a-5012-4ea7-96be-d91013e3e54f",
+          "answer": "Estamos desviando tu conversacion a nuestro agente 😊",
           "options": {
             "media": null,
             "buttons": [],
@@ -319,10 +708,42 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "1ef9e31fdea77edd2d89baad04635a91"
+          "refSerialize": "1f1ee72039d27bf88caffb6b7b12f54a"
         },
         {
-          "ref": "key_d975effd-4bf0-4375-ae77-9297b1b4bbce",
+          "ref": "ans_64a1a124-6844-48ab-87b0-02eb2ffd0312",
+          "keyword": "ans_01c8dcb0-e097-4c02-8a92-f415761b8798",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "d165ff6d59190712687958904c4f054c"
+        },
+        {
+          "ref": "ans_d9f584e8-7f2a-42d7-b413-f9b08fb1453e",
+          "keyword": "ans_64a1a124-6844-48ab-87b0-02eb2ffd0312",
+          "answer": "Te hemos agregado a un grupo con un asesor! Gracias👋",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "0251bec0699e7d0cad06609a8994e7fa"
+        },
+        {
+          "ref": "key_c0db9a58-8530-4e16-a2cc-8fcf129b4d86",
           "keyword": [
             "3",
             "precio"
@@ -334,9 +755,9 @@
           "refSerialize": "18805e4bb3990c1cd9b5f514f9f8ac54"
         },
         {
-          "ref": "ans_2d5eb2ea-6951-4953-9042-50709bced4d3",
-          "keyword": "key_d975effd-4bf0-4375-ae77-9297b1b4bbce",
-          "answer": "Es muuuy económico, clic aqui *www.turguide.app*.\n*1*. Plan Básico 🥳\n*2*. Plan Medio 🥳",
+          "ref": "ans_58281e28-e025-4197-b53d-6aee3a88f62c",
+          "keyword": "key_c0db9a58-8530-4e16-a2cc-8fcf129b4d86",
+          "answer": "Es muuuy económico, clic aqui *www.aplextm.com*.\n*1*. Plan Básico 🥳\n*2*. Plan Medio 🥳",
           "options": {
             "media": null,
             "buttons": [],
@@ -347,25 +768,173 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "c0890eeeec4cd673ebf93795f8115c6e"
+          "refSerialize": "f9c8aea6b50f4f2001538d4a02529b0e"
         },
         {
-          "ref": "key_2a0e260b-4282-4061-bd96-a8a2ca2ffecc",
+          "ref": "key_cdd0681e-aeb6-47a6-a602-3266c4dd082e",
+          "keyword": "4",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "fc09f52170be47fcb14a1cee9c5d3c52"
+        },
+        {
+          "ref": "ans_d805577d-c105-4602-81ef-8e3f398d23ed",
+          "keyword": "key_cdd0681e-aeb6-47a6-a602-3266c4dd082e",
+          "answer": "Hola!\nPara enviar el formulario necesito unos datos...\nEscriba su *Nombre*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "f21c6a3ab3c58f37312539119fbfd86f"
+        },
+        {
+          "ref": "ans_1ef6ff40-aca7-452b-a7cb-589a6507b6df",
+          "keyword": "ans_d805577d-c105-4602-81ef-8e3f398d23ed",
+          "answer": "También necesito tus dos apellidos",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "a9d83021f3026ce164775b0373f5ea45"
+        },
+        {
+          "ref": "ans_6925f52a-0036-437c-ac98-94297ba8b9ef",
+          "keyword": "ans_1ef6ff40-aca7-452b-a7cb-589a6507b6df",
+          "answer": "Dejeme su número de teléfono y le llamaré lo antes posible.",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "a83e3c2d7cfb209fb4a328cf5b705062"
+        },
+        {
+          "ref": "ans_cde048d9-0590-485b-9938-6354776778c0",
+          "keyword": "ans_6925f52a-0036-437c-ac98-94297ba8b9ef",
+          "answer": "Si deseas alguna otra consulta, por favor escribe la opcion *MENU*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c5627f3081371786ce1e7f64c6a72006"
+        },
+        {
+          "ref": "key_3f49011d-774b-4756-a307-90561823aa7b",
           "keyword": [
-            "4",
-            "Salir",
-            "salir"
+            "5"
           ],
           "options": {
             "sensitive": false,
             "regex": false
           },
-          "refSerialize": "0e8dd83ba3905f6ea079667e3b1605cf"
+          "refSerialize": "47670bebf9089082e1ec81e842012d5b"
         },
         {
-          "ref": "ans_70ba892a-41b1-4974-a681-74742c10a3da",
-          "keyword": "key_2a0e260b-4282-4061-bd96-a8a2ca2ffecc",
-          "answer": "🤗 Fue un gusto ayudarte, si tienes alguna otra inquietud, no olvides contactarnos. 👋",
+          "ref": "ans_d652e167-daf3-4dd8-a5a1-206c6f8909ae",
+          "keyword": "key_3f49011d-774b-4756-a307-90561823aa7b",
+          "answer": "Enviando audio",
+          "options": {
+            "media": "https://demo.4plbox.com/img/prueba-bot/audio.ogg",
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "0e5d48a19e5c5f6ae8cef010b9fe922c"
+        },
+        {
+          "ref": "ans_acbf7e4f-5328-4378-9039-c647c6fecc64",
+          "keyword": "ans_d652e167-daf3-4dd8-a5a1-206c6f8909ae",
+          "answer": "Enviando imagen",
+          "options": {
+            "media": "https://demo.4plbox.com/img/prueba-bot/bot-image.png",
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "1b293d3a092f67d2f5ea77bac90990d4"
+        }
+      ],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "abafc59ec198a79b20a853881a550900",
+    "from": "573217980766"
+  },
+  {
+    "ref": "8b96dc94-400b-4628-ab10-e387dcd67d67",
+    "keyword": "abafc59ec198a79b20a853881a550900",
+    "answer": "Menú",
+    "options": {},
+    "from": "573217980766",
+    "refSerialize": "24f993908d01def8edb99c3d92f53f73"
+  },
+  {
+    "ref": "c1af97f0-e3a3-46e7-84fa-efd91a63e5bb",
+    "keyword": "24f993908d01def8edb99c3d92f53f73",
+    "answer": "menu",
+    "options": {},
+    "from": "573217980766",
+    "refSerialize": "8d19b761e0b1d940f841b37e5e559ee4"
+  },
+  {
+    "ref": "ans_7c686dfa-5894-47a3-8724-a3fb91160eaa",
+    "keyword": "key_8fc10601-2ac4-4413-b192-589392b05363",
+    "answer": "🙌 Hola bienvenido a *Aplex!*\n¿En que podemos ayudarte el dia de hoy?\n'Responda con el numero de la opcion!'\n\n*1* Quiero estar en Aplex!\n*2* Hablar con un asesor\n*3* Saber el precio\n*4* Necesito información\n*5* Enviar audio",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_223ff438-f215-4bb0-bac8-7d1c0cd861f9",
+          "keyword": [
+            "1"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "e0b2cd1acac633ea641e2d526690d369"
+        },
+        {
+          "ref": "ans_3282f0e1-862c-489f-b6eb-65fc1be662c9",
+          "keyword": "key_223ff438-f215-4bb0-bac8-7d1c0cd861f9",
+          "answer": "Estos son los pasos que debes seguir para ser parte de nuesto gran equipo!!😊🙌:\n*1*. Ingresa a https://aplextm.com/\n*2*. Registra tus datos personales y de tu negocio\n*3*. Espera nuestra respuesta 🥳",
           "options": {
             "media": null,
             "buttons": [],
@@ -376,13 +945,230 @@
             "keyword": {},
             "callback": false
           },
-          "refSerialize": "9d7a7ccc48479f8b553a4c589cab338f"
+          "refSerialize": "d9284483e737f2a179407bdd5d6bf0ed"
+        },
+        {
+          "ref": "ans_b1412918-798f-4942-8fd4-3ff1957c11a6",
+          "keyword": "ans_3282f0e1-862c-489f-b6eb-65fc1be662c9",
+          "answer": "Escribre *menu* para regresar el menu principal",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "b5d04b451b1416521f1df4b7c4461640"
+        },
+        {
+          "ref": "key_b572753a-5012-4ea7-96be-d91013e3e54f",
+          "keyword": "2",
+          "options": {
+            "sensitive": true,
+            "regex": false
+          },
+          "refSerialize": "900c9aa0094bfcca4a316ec66236e2fc"
+        },
+        {
+          "ref": "ans_01c8dcb0-e097-4c02-8a92-f415761b8798",
+          "keyword": "key_b572753a-5012-4ea7-96be-d91013e3e54f",
+          "answer": "Estamos desviando tu conversacion a nuestro agente 😊",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "1f1ee72039d27bf88caffb6b7b12f54a"
+        },
+        {
+          "ref": "ans_64a1a124-6844-48ab-87b0-02eb2ffd0312",
+          "keyword": "ans_01c8dcb0-e097-4c02-8a92-f415761b8798",
+          "answer": "__call_action__",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "d165ff6d59190712687958904c4f054c"
+        },
+        {
+          "ref": "ans_d9f584e8-7f2a-42d7-b413-f9b08fb1453e",
+          "keyword": "ans_64a1a124-6844-48ab-87b0-02eb2ffd0312",
+          "answer": "Te hemos agregado a un grupo con un asesor! Gracias👋",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "0251bec0699e7d0cad06609a8994e7fa"
+        },
+        {
+          "ref": "key_c0db9a58-8530-4e16-a2cc-8fcf129b4d86",
+          "keyword": [
+            "3",
+            "precio"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "18805e4bb3990c1cd9b5f514f9f8ac54"
+        },
+        {
+          "ref": "ans_58281e28-e025-4197-b53d-6aee3a88f62c",
+          "keyword": "key_c0db9a58-8530-4e16-a2cc-8fcf129b4d86",
+          "answer": "Es muuuy económico, clic aqui *www.aplextm.com*.\n*1*. Plan Básico 🥳\n*2*. Plan Medio 🥳",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "f9c8aea6b50f4f2001538d4a02529b0e"
+        },
+        {
+          "ref": "key_cdd0681e-aeb6-47a6-a602-3266c4dd082e",
+          "keyword": "4",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "fc09f52170be47fcb14a1cee9c5d3c52"
+        },
+        {
+          "ref": "ans_d805577d-c105-4602-81ef-8e3f398d23ed",
+          "keyword": "key_cdd0681e-aeb6-47a6-a602-3266c4dd082e",
+          "answer": "Hola!\nPara enviar el formulario necesito unos datos...\nEscriba su *Nombre*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "f21c6a3ab3c58f37312539119fbfd86f"
+        },
+        {
+          "ref": "ans_1ef6ff40-aca7-452b-a7cb-589a6507b6df",
+          "keyword": "ans_d805577d-c105-4602-81ef-8e3f398d23ed",
+          "answer": "También necesito tus dos apellidos",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "a9d83021f3026ce164775b0373f5ea45"
+        },
+        {
+          "ref": "ans_6925f52a-0036-437c-ac98-94297ba8b9ef",
+          "keyword": "ans_1ef6ff40-aca7-452b-a7cb-589a6507b6df",
+          "answer": "Dejeme su número de teléfono y le llamaré lo antes posible.",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": true,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "a83e3c2d7cfb209fb4a328cf5b705062"
+        },
+        {
+          "ref": "ans_cde048d9-0590-485b-9938-6354776778c0",
+          "keyword": "ans_6925f52a-0036-437c-ac98-94297ba8b9ef",
+          "answer": "Si deseas alguna otra consulta, por favor escribe la opcion *MENU*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "c5627f3081371786ce1e7f64c6a72006"
+        },
+        {
+          "ref": "key_3f49011d-774b-4756-a307-90561823aa7b",
+          "keyword": [
+            "5"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "47670bebf9089082e1ec81e842012d5b"
+        },
+        {
+          "ref": "ans_d652e167-daf3-4dd8-a5a1-206c6f8909ae",
+          "keyword": "key_3f49011d-774b-4756-a307-90561823aa7b",
+          "answer": "Enviando audio",
+          "options": {
+            "media": "https://demo.4plbox.com/img/prueba-bot/audio.ogg",
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "0e5d48a19e5c5f6ae8cef010b9fe922c"
+        },
+        {
+          "ref": "ans_acbf7e4f-5328-4378-9039-c647c6fecc64",
+          "keyword": "ans_d652e167-daf3-4dd8-a5a1-206c6f8909ae",
+          "answer": "Enviando imagen",
+          "options": {
+            "media": "https://demo.4plbox.com/img/prueba-bot/bot-image.png",
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "1b293d3a092f67d2f5ea77bac90990d4"
         }
       ],
       "keyword": {},
-      "callback": false
+      "callback": true
     },
-    "refSerialize": "d854e42c02a6923e65713afdab792dab",
-    "from": "573103879248"
+    "refSerialize": "abafc59ec198a79b20a853881a550900",
+    "from": "573217980766"
   }
 ]
